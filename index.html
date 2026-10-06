@@ -7,7 +7,7 @@
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
     line-height: 1.7;
     color: #1a1a1a;
     background: #fafafa;
@@ -15,70 +15,23 @@
     max-width: 820px;
     margin: 0 auto;
   }
-  h1 {
-    color: #0B5B4F;
-    font-size: 1.6em;
-    margin-bottom: 8px;
-    border-bottom: 3px solid #0B5B4F;
-    padding-bottom: 10px;
-  }
-  h2 {
-    color: #0B5B4F;
-    font-size: 1.15em;
-    margin-top: 28px;
-    margin-bottom: 10px;
-  }
-  h3 {
-    color: #1a1a1a;
-    font-size: 1em;
-    margin-top: 14px;
-    margin-bottom: 6px;
-  }
+  h1 { color: #0B5B4F; font-size: 1.6em; margin-bottom: 8px;
+       border-bottom: 3px solid #0B5B4F; padding-bottom: 10px; }
+  h2 { color: #0B5B4F; font-size: 1.15em; margin-top: 28px; margin-bottom: 10px; }
+  h3 { color: #1a1a1a; font-size: 1em; margin-top: 14px; margin-bottom: 6px; }
   p, li { margin-bottom: 8px; }
   ul { padding-right: 22px; padding-left: 22px; }
-  .meta {
-    color: #666;
-    font-size: 0.9em;
-    margin-bottom: 24px;
-  }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 24px; }
   .lang-block { margin-bottom: 40px; }
-  .italian {
-    direction: ltr;
-    text-align: left;
-  }
+  .italian { direction: ltr; text-align: left; }
   .italian h1, .italian h2 { color: #B71C1C; }
   .italian h1 { border-bottom-color: #B71C1C; }
-  .divider {
-    border: none;
-    border-top: 2px dashed #ccc;
-    margin: 40px 0;
-  }
-  .contact {
-    background: #f0f5f3;
-    padding: 12px 16px;
-    border-radius: 8px;
-    margin-top: 12px;
-  }
-  code {
-    background: #eee;
-    padding: 2px 6px;
-    border-radius: 4px;
-    font-size: 0.9em;
-  }
-  .lang-nav {
-    text-align: center;
-    margin-bottom: 24px;
-    padding: 10px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
-  }
-  .lang-nav a {
-    color: #0B5B4F;
-    text-decoration: none;
-    font-weight: 600;
-    margin: 0 8px;
-  }
+  .divider { border: none; border-top: 2px dashed #ccc; margin: 40px 0; }
+  .contact { background: #f0f5f3; padding: 12px 16px; border-radius: 8px; margin-top: 12px; }
+  .lang-nav { text-align: center; margin-bottom: 24px; padding: 10px;
+              background: #fff; border-radius: 8px;
+              box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+  .lang-nav a { color: #0B5B4F; text-decoration: none; font-weight: 600; margin: 0 8px; }
   .lang-nav a:hover { text-decoration: underline; }
 </style>
 </head>
@@ -93,80 +46,135 @@
 <div class="lang-block" id="ar">
 
 <h1>سياسة الخصوصية لتطبيق Wassta.AI</h1>
-<p class="meta">آخر تحديث: 5 أكتوبر 2026 — الإصدار: 1.0.1</p>
+<p class="meta">آخر تحديث: 6 أكتوبر 2026 — الإصدار: 1.0.0</p>
 
-<h2>1. مقدمة</h2>
-<p>مرحباً بك في Wassta.AI ("التطبيق"، "نحن"). نحن نحترم خصوصيتك ونلتزم بحماية بياناتك الشخصية. توضح هذه السياسة كيف نجمع ونستخدم ونحمي معلوماتك عند استخدامك للتطبيق.</p>
+<h2>1. المسؤول عن معالجة البيانات</h2>
+<p>المسؤول عن معالجة البيانات (Data Controller):</p>
+<div class="contact">
+  <p><strong>Fahd Moustafa Elnahas Elhassan Ali</strong></p>
+  <p>San Giuliano Milanese (MI), Italia</p>
+  <p>الإيميل: <strong>wassta.app@gmail.com</strong></p>
+  <p>وقت الرد المتوقع: خلال 30 يوماً</p>
+</div>
 
-<h2>2. المعلومات التي نجمعها</h2>
+<h2>2. نطاق هذه السياسة</h2>
+<p>تغطي هذه السياسة قناتين تابعتين لمنتج Wassta.AI:</p>
+<ul>
+  <li>تطبيق Wassta.AI على Android (الأقسام 3 إلى 6).</li>
+  <li>بوت Telegram الذي يفتحه التطبيق (القسم 7).</li>
+</ul>
+<p>لكل قناة مزودو خدمة مختلفون، كما هو موضح أدناه.</p>
 
-<h3>المستندات والصور</h3>
-<p>عندما ترفع صورة أو ملف PDF لتحليله، نقوم بمعالجة هذا المستند. لا نحتفظ بنسخة دائمة من المستند على خوادمنا، إلا إذا اخترت حفظه في قسم "مستنداتي".</p>
+<h2>3. مقدمة</h2>
+<p>مرحباً بك في Wassta.AI. نحترم خصوصيتك ونعالج بياناتك الشخصية وفقاً للائحة العامة لحماية البيانات (GDPR - Reg. UE 2016/679) والقانون الإيطالي.</p>
 
-<h3>النصوص والصوت</h3>
-<p>عندما تستخدم الترجمة النصية أو الصوتية، نقوم بمعالجة النص أو التسجيل الصوتي لتحويله إلى ترجمة. لا نحتفظ بالتسجيلات الصوتية بعد انتهاء المعالجة.</p>
+<h2>4. البيانات التي نعالجها في التطبيق</h2>
+
+<h3>المستندات والصور وملفات PDF</h3>
+<p>عندما تصوّر مستنداً أو تختار صورة أو ملف PDF لتحليله، تتم معالجة محتواه لاستخراج النص وفهمه وترجمته. لا نحتفظ بنسخة من المستند على خوادمنا بعد انتهاء المعالجة. إذا اخترت حفظ النتيجة في "مستنداتي"، فإنها تُحفظ على جهازك فقط.</p>
+
+<h3>النصوص</h3>
+<p>النصوص التي تكتبها للترجمة أو للمحادثة حول مستند تُعالج لتقديم الخدمة المطلوبة.</p>
+
+<h3>التسجيلات الصوتية</h3>
+<p>عند استخدام الترجمة الصوتية، يُرفع التسجيل مؤقتاً إلى مساحة تخزين وسيطة لمعالجته وتحويله إلى نص، ثم نحاول حذفه تلقائياً بعد انتهاء المعالجة. الحذف مُنفَّذ برمجياً لكنه غير مضمون في حال فشل الاتصال.</p>
 
 <h3>الموقع</h3>
-<p>يُستخدم فقط لبناء بحث "خدمات قريبة". لا يتم تخزينه أو تتبعه في الخلفية.</p>
+<p>يُطلب فقط عند استخدامك ميزة "الخدمات القريبة". لا نخزّنه ولا نتتبعه في الخلفية. عند اختيارك خدمة، يفتح التطبيق رابط بحث في Google Maps أو المتصفح يتضمن إحداثياتك.</p>
 
-<h3>التقويم</h3>
-<p>يُستخدم فقط لإضافة تذكير بالمواعيد المهمة عندما تطلب ذلك. لا نقرأ أحداث التقويم الحالية.</p>
+<h3>جلسة الضيف وحدود الاستخدام</h3>
+<p>التطبيق لا يتطلب حساباً ولا يجمع اسمك أو بريدك الإلكتروني. يُنشأ على جهازك معرّف جلسة عشوائي، ويُرسل مع الطلبات لتطبيق حدود الاستخدام ومنع إساءة الاستخدام. يستخدم الخادم هذا المعرّف وعنوان IP في الذاكرة لهذا الغرض فقط.</p>
 
-<h3>بيانات الاستخدام</h3>
-<p>قد نجمع معلومات مجهولة عن كيفية استخدامك للتطبيق لتحسين الخدمة.</p>
+<h3>بيانات محفوظة على جهازك</h3>
+<p>يحفظ التطبيق على جهازك: أرشيف "مستنداتي"، وقرار موافقتك على المعالجة الخارجية، ومعرّف جلسة الضيف. تُحذف هذه البيانات بحذف بيانات التطبيق أو إزالته.</p>
 
-<h2>3. كيف نستخدم معلوماتك</h2>
+<h3>ما لا نجمعه</h3>
+<p>لا يحتوي التطبيق على أدوات تحليلات أو إعلانات أو تتبع، ولا نبيع بياناتك.</p>
+
+<h2>5. الأساس القانوني للمعالجة</h2>
 <ul>
-  <li>لتقديم خدمات الترجمة وتحليل المستندات.</li>
-  <li>لتحسين جودة التطبيق وتجربة المستخدم.</li>
-  <li>للامتثال للمتطلبات القانونية.</li>
+  <li><strong>موافقتك الصريحة</strong> (Art. 6(1)(a) GDPR): لإرسال محتواك إلى مزودي المعالجة الخارجيين. تُعرض عليك نافذة موافقة داخل التطبيق، ويطلب البوت موافقتك بزر داخل Telegram، قبل أول معالجة، ويمكنك الرفض، وعندها لا تعمل الميزات التي تتطلب معالجة خارجية.</li>
+  <li><strong>تنفيذ الخدمة</strong> (Art. 6(1)(b) GDPR): لتقديم الترجمة وتحليل المستندات التي طلبتها.</li>
+  <li><strong>المصلحة المشروعة</strong> (Art. 6(1)(f) GDPR): لأمن الخدمة وتطبيق حدود الاستخدام.</li>
+</ul>
+<p>يمكنك سحب موافقتك في أي وقت من شاشة "حسابي" ← "إعادة ضبط موافقة المعالجة الخارجية". بعد السحب لا يُرسل أي محتوى جديد للمعالجة، ويُطلب منك الموافقة مجدداً قبل الاستخدام التالي.</p>
+
+<h2>6. مزودو الخدمة في التطبيق</h2>
+<p>لا نبيع بياناتك. نستخدم المزودين التاليين لتشغيل التطبيق، وتُرسل إليهم البيانات بعد موافقتك داخل التطبيق:</p>
+<ul>
+  <li><strong>Manus Forge (Gemini 3 Flash):</strong> تحليل صور المستندات ومحتوى PDF، والترجمة، والمحادثة حول المستند. تُرسل إليه الصور والنصوص وأسئلتك.</li>
+  <li><strong>Manus Forge (Whisper-1):</strong> تحويل الصوت إلى نص، ويمر التسجيل عبر مساحة تخزين مؤقتة قبل ذلك.</li>
+  <li><strong>Azure Speech Services:</strong> نطق الترجمة (Text-to-Speech) فقط. يُرسل إليه النص المراد نطقه.</li>
+  <li><strong>Google Maps:</strong> عند اختيارك خدمة قريبة، يُفتح رابط يحتوي إحداثياتك.</li>
+  <li><strong>Railway:</strong> استضافة خادم التطبيق الذي يستقبل الطلبات.</li>
+</ul>
+<p>تخضع معالجة كل مزود لسياسة الخصوصية الخاصة به. قد تحتوي نتائج الذكاء الاصطناعي على أخطاء، فراجعها قبل الاعتماد عليها في أمور قانونية أو مالية.</p>
+
+<h2>7. بوت Telegram</h2>
+<p>يتضمن التطبيق في صفحات بطاقات الإجراءات زراً للاستفسار عبر Telegram، يفتح بوت Telegram الرسمي لـ Wassta.AI. يظهر لك تنبيه داخل التطبيق قبل الانتقال يوضح المعالجة وهذه السياسة، ولا يُفتح البوت إلا بعد اختيارك "متابعة".</p>
+<p>عند استخدامك البوت:</p>
+<ul>
+  <li>عند البدء (الأمر /start) يعرض البوت رسالة موافقة بزرّين "أوافق" و"لا"، ولا يُرسل أي شيء إلى Groq أو Tavily قبل ضغطك "أوافق". يمكنك سحب موافقتك في أي وقت بالأمر /revoke، ومراجعة هذه المعلومات بالأمر /privacy. تُحفظ موافقتك في الذاكرة المؤقتة للبوت فقط، فإذا أُعيد تشغيل البوت يُطلب منك الموافقة من جديد.</li>
+  <li>بعد موافقتك تُرسل رسالتك إلى <strong>Groq</strong> لإنشاء الإجابة والترجمة. ولصياغة الإجابة النهائية قد تُرسل إلى Groq أيضاً نتائج البحث في المواقع الرسمية ومعلومات البطاقة التي اخترتها.</li>
+  <li>قد يُرسل استعلام بحث مشتق من سؤالك (بالإيطالية) إلى <strong>Tavily</strong> للبحث في المواقع الرسمية الإيطالية.</li>
+  <li>تمر رسائلك عبر خوادم <strong>Telegram</strong> وتخضع لسياستها.</li>
+  <li>يعمل البوت على خدمة <strong>Render</strong> في مركز بيانات Frankfurt داخل الاتحاد الأوروبي.</li>
+  <li>يعمل البوت في المحادثات الخاصة فقط، ويقبل الرسائل النصية فقط، ويرفض الصور والملفات.</li>
+  <li>لا يحفظ البوت أسئلتك ولا إجاباته. ويحتفظ في الذاكرة المؤقتة، أثناء تشغيله فقط، بقرار موافقتك والبطاقة المختارة. وتسجّل سجلات التشغيل نوع الخطأ التقني فقط، دون نص رسائلك.</li>
+</ul>
+<p>ننصحك بعدم إرسال بيانات شخصية حساسة أو مستندات رسمية كاملة إلى البوت.</p>
+
+<h2>8. النقل خارج الاتحاد الأوروبي</h2>
+<p>قد يعالج بعض مزودي الخدمة البيانات خارج الاتحاد الأوروبي، ومنها الولايات المتحدة، وفق الضمانات القانونية التي يطبقها كل مزود.</p>
+
+<h2>9. مدة الاحتفاظ بالبيانات</h2>
+<ul>
+  <li><strong>التسجيلات الصوتية:</strong> تُرفع مؤقتاً ونحاول حذفها فور انتهاء المعالجة.</li>
+  <li><strong>المستندات والنصوص:</strong> لا نخزنها على خوادمنا بعد انتهاء المعالجة.</li>
+  <li><strong>الأرشيف المحلي:</strong> يبقى على جهازك حتى تحذفه أو تحذف بيانات التطبيق.</li>
+  <li><strong>السجلات التقنية:</strong> لا نسجّل محتوى طلباتك عمداً. قد تحتفظ منصة الاستضافة بسجلات تقنية قياسية (مثل عنوان IP) وفق سياستها.</li>
+  <li><strong>بوت Telegram:</strong> لا نحفظ أسئلتك ولا إجاباته. يُحذف قرار الموافقة من ذاكرة البوت عند إعادة تشغيله أو عند الأمر /revoke.</li>
 </ul>
 
-<h2>4. مشاركة البيانات مع أطراف ثالثة</h2>
-<p>نحن لا نبيع بياناتك الشخصية. نستخدم خدمات خارجية موثوقة لمعالجة المستندات والنصوص والصوت، وفقاً لما يلي:</p>
+<h2>10. الصلاحيات التي يطلبها التطبيق</h2>
 <ul>
-  <li><strong>Manus Forge (Gemini 3 Flash)</strong> — لتحليل المستندات والترجمة النصية</li>
-  <li><strong>Manus Forge (Whisper-1)</strong> — لتحويل الصوت إلى نص</li>
-  <li><strong>Azure Speech Services</strong> — لنطق الترجمة الإيطالية (Text-to-Speech)</li>
-  <li><strong>Tavily</strong> — للبحث في المواقع الرسمية الإيطالية</li>
-</ul>
-<p>تُرسل بياناتك لهذه الخدمات فقط بعد موافقتك الصريحة داخل التطبيق، وتلتزم جميعها بسياسات خصوصية صارمة، ولا يحق لها استخدام بياناتك لأغراض أخرى.</p>
-
-<h2>5. معالجة الذكاء الاصطناعي</h2>
-<p>يستخدم التطبيق تقنيات الذكاء الاصطناعي لتقديم خدمات الترجمة وتحليل المستندات. تتم المعالجة على خوادم آمنة، ولا تُستخدم بياناتك لتدريب نماذج الذكاء الاصطناعي.</p>
-<p>يمكنك سحب موافقتك على المعالجة الخارجية في أي وقت من خلال:</p>
-<ul>
-  <li>صفحة "حسابي" ← "إعادة ضبط موافقة المعالجة الخارجية"</li>
-</ul>
-<p>عند سحب الموافقة، لن يتم إرسال أي بيانات جديدة للمعالجة، وستُطلب الموافقة مرة أخرى قبل الاستخدام التالي.</p>
-
-<h2>6. تخزين البيانات وأمنها</h2>
-<ul>
-  <li>نستخدم تشفير SSL/TLS أثناء نقل البيانات.</li>
-  <li>لا نحتفظ بالمستندات أو التسجيلات الصوتية بعد انتهاء المعالجة، إلا إذا قمت بحفظها بنفسك في "مستنداتي".</li>
-  <li>البيانات المحفوظة في "مستنداتي" تبقى على جهازك، ويمكنك حذفها في أي وقت.</li>
+  <li><strong>الكاميرا:</strong> لتصوير المستندات.</li>
+  <li><strong>الميكروفون:</strong> للترجمة الصوتية.</li>
+  <li><strong>الموقع (اختياري):</strong> للخدمات القريبة، أثناء استخدام التطبيق فقط.</li>
+  <li><strong>الإشعارات (اختياري):</strong> لتنبيهات التطبيق.</li>
+  <li><strong>الصور والملفات:</strong> عبر أدوات اختيار الصور والملفات في النظام، عندما تختار مستنداً.</li>
 </ul>
 
-<h2>7. حقوقك</h2>
-<p>وفقاً للائحة العامة لحماية البيانات (GDPR)، لديك الحق في:</p>
+<h2>11. الأمان</h2>
 <ul>
-  <li>الوصول إلى بياناتك.</li>
-  <li>تصحيح بياناتك.</li>
-  <li>حذف بياناتك.</li>
-  <li>الاعتراض على معالجة بياناتك.</li>
-  <li>تقديم شكوى إلى Garante per la Protezione dei Dati Personali (السلطة الإيطالية لحماية البيانات).</li>
+  <li>نستخدم اتصال HTTPS/TLS لنقل البيانات.</li>
+  <li>البيانات المحفوظة على جهازك تعتمد على حماية جهازك.</li>
 </ul>
 
-<h2>8. خصوصية الأطفال</h2>
-<p>التطبيق غير موجه للأطفال تحت 13 عاماً. لا نجمع بيانات عن قصد من الأطفال.</p>
+<h2>12. حقوقك (GDPR)</h2>
+<p>لديك الحق في:</p>
+<ul>
+  <li>الوصول إلى بياناتك</li>
+  <li>تصحيح بياناتك</li>
+  <li>حذف بياناتك ("الحق في النسيان")</li>
+  <li>الاعتراض على المعالجة وتقييدها</li>
+  <li>نقل بياناتك (Data Portability)</li>
+  <li>سحب الموافقة في أي وقت</li>
+  <li>تقديم شكوى إلى Garante per la Protezione dei Dati Personali (السلطة الإيطالية)</li>
+</ul>
+<p>لممارسة حقوقك راسلنا على البريد الموضح في القسم 1.</p>
 
-<h2>9. التغييرات على هذه السياسة</h2>
-<p>قد نقوم بتحديث هذه السياسة من وقت لآخر. سنعلمك بأي تغييرات جوهرية عبر التطبيق.</p>
+<h2>13. خصوصية الأطفال</h2>
+<p>التطبيق غير موجه للأطفال تحت <strong>14 عاماً</strong>، وفقاً للقانون الإيطالي (Art. 2-quinquies D.Lgs. 196/2003). لا نجمع بيانات عن قصد من الأطفال دون هذا السن.</p>
 
-<h2>10. الاتصال بنا</h2>
+<h2>14. التغييرات على هذه السياسة</h2>
+<p>قد نحدّث هذه السياسة من وقت لآخر. سنعلمك بأي تغييرات جوهرية عبر التطبيق، ونطلب موافقتك مجدداً عند الحاجة.</p>
+
+<h2>15. الاتصال بنا</h2>
 <div class="contact">
-  <p>لأي استفسار حول هذه السياسة، يمكنك التواصل معنا على:</p>
-  <p><strong>samagroup2008@gmail.com</strong></p>
+  <p>لأي استفسار حول هذه السياسة:</p>
+  <p>الإيميل: <strong>wassta.app@gmail.com</strong></p>
+  <p>وقت الرد المتوقع: خلال 30 يوماً</p>
 </div>
 
 </div>
@@ -177,80 +185,135 @@
 <div class="lang-block italian" id="it">
 
 <h1>Informativa sulla Privacy — Wassta.AI</h1>
-<p class="meta">Ultimo aggiornamento: 5 ottobre 2026 — Versione: 1.0.1</p>
+<p class="meta">Ultimo aggiornamento: 6 ottobre 2026 — Versione: 1.0.0</p>
 
-<h2>1. Introduzione</h2>
-<p>Benvenuto in Wassta.AI ("l'App", "noi"). Rispettiamo la tua privacy e ci impegniamo a proteggere i tuoi dati personali. La presente informativa descrive come raccogliamo, utilizziamo e proteggiamo le tue informazioni durante l'uso dell'App.</p>
+<h2>1. Titolare del trattamento</h2>
+<p>Il Titolare del trattamento dei dati è:</p>
+<div class="contact">
+  <p><strong>Fahd Moustafa Elnahas Elhassan Ali</strong></p>
+  <p>San Giuliano Milanese (MI), Italia</p>
+  <p>Email: <strong>wassta.app@gmail.com</strong></p>
+  <p>Tempo di risposta previsto: entro 30 giorni</p>
+</div>
 
-<h2>2. Dati che trattiamo</h2>
+<h2>2. Ambito di questa informativa</h2>
+<p>La presente informativa riguarda due canali del prodotto Wassta.AI:</p>
+<ul>
+  <li>L'app Wassta.AI per Android (sezioni da 3 a 6).</li>
+  <li>Il bot Telegram aperto dall'app (sezione 7).</li>
+</ul>
+<p>Ciascun canale utilizza fornitori diversi, come indicato di seguito.</p>
 
-<h3>Immagini di documenti e PDF</h3>
-<p>Usati per estrarre testo, analizzare e tradurre. Non conservati sui nostri server dopo l'elaborazione, salvo tuo salvataggio in "I miei documenti".</p>
+<h2>3. Introduzione</h2>
+<p>Benvenuto in Wassta.AI. Rispettiamo la tua privacy e trattiamo i tuoi dati personali in conformità al Regolamento Generale sulla Protezione dei Dati (GDPR - Reg. UE 2016/679) e alla normativa italiana.</p>
 
-<h3>Testi e registrazioni vocali</h3>
-<p>Usati per conversioni voce-testo e traduzioni. Le registrazioni vocali vengono cancellate immediatamente dopo l'elaborazione.</p>
+<h2>4. Dati che trattiamo nell'app</h2>
+
+<h3>Documenti, immagini e PDF</h3>
+<p>Quando fotografi un documento o scegli un'immagine o un PDF da analizzare, il contenuto viene elaborato per estrarre il testo, comprenderlo e tradurlo. Non conserviamo una copia del documento sui nostri server al termine dell'elaborazione. Se scegli di salvare il risultato in "I miei documenti", viene salvato solo sul tuo dispositivo.</p>
+
+<h3>Testi</h3>
+<p>I testi che scrivi per la traduzione o per la conversazione su un documento vengono elaborati per fornire il servizio richiesto.</p>
+
+<h3>Registrazioni vocali</h3>
+<p>Quando usi la traduzione vocale, la registrazione viene caricata temporaneamente in uno spazio di archiviazione intermedio per essere elaborata e convertita in testo; al termine cerchiamo di eliminarla automaticamente. L'eliminazione è prevista dal software ma non è garantita in caso di errore di connessione.</p>
 
 <h3>Posizione</h3>
-<p>Usata solo per la funzione "Servizi vicini". Non conservata né tracciata in background.</p>
+<p>Richiesta solo quando usi la funzione "Servizi vicini". Non viene conservata né tracciata in background. Quando scegli un servizio, l'app apre un link di ricerca su Google Maps o nel browser che contiene le tue coordinate.</p>
 
-<h3>Calendario</h3>
-<p>Usato solo per aggiungere promemoria quando richiesto. Non leggiamo eventi esistenti.</p>
+<h3>Sessione ospite e limiti di utilizzo</h3>
+<p>L'app non richiede un account e non raccoglie il tuo nome né la tua email. Sul tuo dispositivo viene creato un identificativo di sessione casuale, inviato con le richieste per applicare i limiti di utilizzo e prevenire abusi. Il server usa questo identificativo e l'indirizzo IP, in memoria, solo a questo scopo.</p>
 
-<h3>Dati di utilizzo</h3>
-<p>Possiamo raccogliere informazioni anonime su come utilizzi l'App per migliorare il servizio.</p>
+<h3>Dati salvati sul tuo dispositivo</h3>
+<p>L'app salva sul dispositivo: l'archivio "I miei documenti", la tua scelta di consenso all'elaborazione esterna e l'identificativo della sessione ospite. Questi dati vengono eliminati cancellando i dati dell'app o disinstallandola.</p>
 
-<h2>3. Finalità del trattamento</h2>
+<h3>Cosa non raccogliamo</h3>
+<p>L'app non contiene strumenti di analisi, pubblicità o tracciamento e non vendiamo i tuoi dati.</p>
+
+<h2>5. Base giuridica del trattamento</h2>
 <ul>
-  <li>Fornire servizi di traduzione e analisi documenti.</li>
-  <li>Migliorare la qualità dell'App e l'esperienza utente.</li>
-  <li>Adempiere a obblighi legali.</li>
+  <li><strong>Consenso esplicito</strong> (Art. 6(1)(a) GDPR): per inviare i tuoi contenuti ai fornitori di elaborazione esterni. Prima della prima elaborazione l'app mostra una finestra di consenso, e il bot Telegram mostra un pulsante di consenso; puoi rifiutare, e in tal caso le funzioni che richiedono l'elaborazione esterna non sono disponibili.</li>
+  <li><strong>Esecuzione del servizio</strong> (Art. 6(1)(b) GDPR): per fornire la traduzione e l'analisi dei documenti che hai richiesto.</li>
+  <li><strong>Legittimo interesse</strong> (Art. 6(1)(f) GDPR): per la sicurezza del servizio e l'applicazione dei limiti di utilizzo.</li>
+</ul>
+<p>Puoi revocare il consenso in qualsiasi momento da "Account" ← "Ripristina consenso elaborazione esterna". Dopo la revoca nessun nuovo contenuto viene inviato per l'elaborazione e ti verrà richiesto di nuovo il consenso prima del prossimo utilizzo.</p>
+
+<h2>6. Fornitori di servizi nell'app</h2>
+<p>Non vendiamo i tuoi dati. Per far funzionare l'app utilizziamo i seguenti fornitori, a cui i dati vengono inviati dopo il tuo consenso nell'app:</p>
+<ul>
+  <li><strong>Manus Forge (Gemini 3 Flash):</strong> analisi di immagini di documenti e contenuto PDF, traduzione e conversazione sul documento. Riceve immagini, testi e le tue domande.</li>
+  <li><strong>Manus Forge (Whisper-1):</strong> conversione della voce in testo; la registrazione passa prima da uno spazio di archiviazione temporaneo.</li>
+  <li><strong>Azure Speech Services:</strong> solo sintesi vocale (Text-to-Speech). Riceve il testo da pronunciare.</li>
+  <li><strong>Google Maps:</strong> quando scegli un servizio vicino, si apre un link che contiene le tue coordinate.</li>
+  <li><strong>Railway:</strong> hosting del server dell'app che riceve le richieste.</li>
+</ul>
+<p>L'elaborazione di ciascun fornitore è soggetta alla sua informativa sulla privacy. I risultati dell'intelligenza artificiale possono contenere errori: verificali prima di farvi affidamento per questioni legali o finanziarie.</p>
+
+<h2>7. Bot Telegram</h2>
+<p>Nelle pagine delle schede procedurali l'app include un pulsante per chiedere informazioni su Telegram, che apre il bot Telegram ufficiale di Wassta.AI. Prima del passaggio l'app mostra un avviso che illustra il trattamento e la presente informativa; il bot si apre solo se scegli "Continua".</p>
+<p>Quando usi il bot:</p>
+<ul>
+  <li>All'avvio (comando /start) il bot mostra un messaggio di consenso con due pulsanti, "Accetto" e "No", e non invia nulla a Groq o a Tavily prima che tu prema "Accetto". Puoi revocare il consenso in qualsiasi momento con il comando /revoke e rileggere queste informazioni con /privacy. Il consenso è conservato solo nella memoria temporanea del bot: se il bot viene riavviato, ti verrà chiesto di nuovo.</li>
+  <li>Dopo il consenso, il tuo messaggio viene inviato a <strong>Groq</strong> per generare la risposta e la traduzione. Per formulare la risposta finale possono essere inviati a Groq anche i risultati della ricerca nei siti ufficiali e le informazioni della scheda scelta.</li>
+  <li>Una query di ricerca derivata dalla tua domanda (in italiano) può essere inviata a <strong>Tavily</strong> per cercare nei siti ufficiali italiani.</li>
+  <li>I tuoi messaggi transitano sui server di <strong>Telegram</strong> e sono soggetti alla sua informativa.</li>
+  <li>Il bot è ospitato su <strong>Render</strong> (data center di Francoforte, Unione Europea).</li>
+  <li>Il bot funziona solo nelle chat private, accetta solo messaggi di testo e rifiuta immagini e file.</li>
+  <li>Il bot non salva le tue domande né le risposte. Conserva in memoria, solo mentre è in esecuzione, la tua scelta di consenso e la scheda selezionata. I log di esecuzione registrano solo il tipo di errore tecnico, non il testo dei tuoi messaggi.</li>
+</ul>
+<p>Ti consigliamo di non inviare al bot dati personali sensibili o documenti ufficiali completi.</p>
+
+<h2>8. Trasferimenti fuori dall'UE</h2>
+<p>Alcuni fornitori possono trattare i dati fuori dall'Unione Europea, anche negli Stati Uniti, secondo le garanzie legali che ciascun fornitore applica.</p>
+
+<h2>9. Periodo di conservazione</h2>
+<ul>
+  <li><strong>Registrazioni vocali:</strong> caricate temporaneamente; cerchiamo di eliminarle subito dopo l'elaborazione.</li>
+  <li><strong>Documenti e testi:</strong> non vengono conservati sui nostri server dopo l'elaborazione.</li>
+  <li><strong>Archivio locale:</strong> resta sul tuo dispositivo finché non lo elimini o non cancelli i dati dell'app.</li>
+  <li><strong>Log tecnici:</strong> non registriamo intenzionalmente il contenuto delle tue richieste. La piattaforma di hosting può conservare log tecnici standard (ad esempio l'indirizzo IP) secondo la propria informativa.</li>
+  <li><strong>Bot Telegram:</strong> non conserviamo le tue domande né le risposte. Il consenso viene cancellato dalla memoria del bot al riavvio o con il comando /revoke.</li>
 </ul>
 
-<h2>4. Condivisione con terze parti</h2>
-<p>Non vendiamo i tuoi dati. Utilizziamo fornitori esterni affidabili per elaborare documenti, testi e audio:</p>
+<h2>10. Permessi richiesti dall'app</h2>
 <ul>
-  <li><strong>Manus Forge (Gemini 3 Flash)</strong> — analisi documenti e traduzione</li>
-  <li><strong>Manus Forge (Whisper-1)</strong> — conversione voce in testo</li>
-  <li><strong>Azure Speech Services</strong> — sintesi vocale (Text-to-Speech)</li>
-  <li><strong>Tavily</strong> — ricerca su siti ufficiali italiani</li>
-</ul>
-<p>I dati vengono inviati a questi fornitori solo dopo il tuo consenso esplicito nell'App. Tutti i fornitori rispettano rigide politiche di privacy e non possono utilizzare i tuoi dati per altri scopi.</p>
-
-<h2>5. Elaborazione con Intelligenza Artificiale</h2>
-<p>L'App utilizza tecnologie di intelligenza artificiale per fornire servizi di traduzione e analisi documenti. L'elaborazione avviene su server sicuri e i tuoi dati non vengono utilizzati per addestrare modelli di intelligenza artificiale.</p>
-<p>Puoi revocare il consenso all'elaborazione esterna in qualsiasi momento tramite:</p>
-<ul>
-  <li>Pagina "Account" ← "Ripristina consenso elaborazione esterna"</li>
-</ul>
-<p>Dopo la revoca, nessun nuovo dato verrà inviato per l'elaborazione, e ti verrà richiesto nuovamente il consenso prima del prossimo uso.</p>
-
-<h2>6. Conservazione e sicurezza</h2>
-<ul>
-  <li>Crittografia SSL/TLS durante la trasmissione.</li>
-  <li>Nessuna conservazione di documenti o registrazioni vocali dopo l'elaborazione, salvo tuo salvataggio locale in "I miei documenti".</li>
-  <li>I dati salvati in "I miei documenti" rimangono sul tuo dispositivo e puoi cancellarli in qualsiasi momento.</li>
+  <li><strong>Fotocamera:</strong> per fotografare i documenti.</li>
+  <li><strong>Microfono:</strong> per la traduzione vocale.</li>
+  <li><strong>Posizione (opzionale):</strong> per i servizi vicini, solo mentre usi l'app.</li>
+  <li><strong>Notifiche (opzionale):</strong> per gli avvisi dell'app.</li>
+  <li><strong>Foto e file:</strong> tramite i selettori di sistema, quando scegli un documento.</li>
 </ul>
 
-<h2>7. I tuoi diritti (GDPR)</h2>
+<h2>11. Sicurezza</h2>
+<ul>
+  <li>Utilizziamo connessioni HTTPS/TLS per la trasmissione dei dati.</li>
+  <li>I dati salvati sul tuo dispositivo dipendono dalla protezione del dispositivo stesso.</li>
+</ul>
+
+<h2>12. I tuoi diritti (GDPR)</h2>
 <p>Hai il diritto di:</p>
 <ul>
-  <li>Accedere ai tuoi dati.</li>
-  <li>Rettificare i tuoi dati.</li>
-  <li>Cancellare i tuoi dati.</li>
-  <li>Opporti al trattamento dei tuoi dati.</li>
-  <li>Presentare reclamo al Garante per la Protezione dei Dati Personali.</li>
+  <li>Accedere ai tuoi dati</li>
+  <li>Rettificare i tuoi dati</li>
+  <li>Cancellare i tuoi dati ("diritto all'oblio")</li>
+  <li>Opporti al trattamento e chiederne la limitazione</li>
+  <li>Portabilità dei dati</li>
+  <li>Revocare il consenso in qualsiasi momento</li>
+  <li>Presentare reclamo al Garante per la Protezione dei Dati Personali</li>
 </ul>
+<p>Per esercitare i tuoi diritti scrivici all'indirizzo indicato nella sezione 1.</p>
 
-<h2>8. Minori</h2>
-<p>L'App non è destinata a minori di 13 anni. Non raccogliamo intenzionalmente dati da minori.</p>
+<h2>13. Minori</h2>
+<p>L'app non è destinata a minori di <strong>14 anni</strong>, in conformità all'Art. 2-quinquies del D.Lgs. 196/2003. Non raccogliamo intenzionalmente dati da minori al di sotto di questa età.</p>
 
-<h2>9. Modifiche alla presente informativa</h2>
-<p>Potremmo aggiornare questa informativa di tanto in tanto. Ti informeremo di eventuali modifiche sostanziali tramite l'App.</p>
+<h2>14. Modifiche alla presente informativa</h2>
+<p>Potremmo aggiornare questa informativa di tanto in tanto. Ti informeremo di eventuali modifiche sostanziali tramite l'app e, quando necessario, ti chiederemo di nuovo il consenso.</p>
 
-<h2>10. Contatti</h2>
+<h2>15. Contatti</h2>
 <div class="contact">
-  <p>Per qualsiasi domanda sulla presente informativa, puoi contattarci a:</p>
-  <p><strong>samagroup2008@gmail.com</strong></p>
+  <p>Per qualsiasi domanda sulla presente informativa:</p>
+  <p>Email: <strong>wassta.app@gmail.com</strong></p>
+  <p>Tempo di risposta previsto: entro 30 giorni</p>
 </div>
 
 </div>
